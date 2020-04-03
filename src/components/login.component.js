@@ -1,10 +1,12 @@
 import React, { Component } from "react";
+import logo from "../imagens/logo.png";
+
 
 export default class Login extends Component {
     render() {
         return (
             <form>
-                <h3>Login</h3>
+                <h3><img src={logo}/></h3>
                 
                 <div className="form-group">
                     <label>Email</label>
